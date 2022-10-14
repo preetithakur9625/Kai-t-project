@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <!-- LINK OF CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Inter:wght@100;300;400;500;600;700&family=Sora:wght@100;200;300;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="bg">
+  <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+    <!-- header -->
+    <div class='dashboard'>
+      <div class="sidebar">
+        <div class="app-header__logo">
+          <button type="button" class="openbtn btn btn-default" onclick="openNav()">
+            <img src="assets/Burger menu.svg">
+          </button>
+          <div class="logo">
+            <h2>Client Logo</h2>
+          </div>
+        </div>
+        
+        <ul class="vertical-nav-menu background">
+
+          <li class="mb-2">
+            <a href="#" class="mm-active" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+              <span><i class="fa fa-chart-pie icons-pie"></i> <span>Overview</span></span>
+              <img src="assets/white-arrow.svg">
+            </a>
+            <ul class="collapse inner-nav" id="collapseExample1">
+              <li>
+                <a href="#">
+                  Account analytics
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Product level analytics
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Expenses
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+              <span> <img src="assets/Column icon.svg" class="icons-pie"> <span>Product metrics</span></span>
+              <img src="assets/arrow-down.svg">
+            </a>
+            <ul class="collapse inner-nav" id="collapseExample2">
+              <li>
+                <a href="#">
+                  Product list
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Inventory
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample3">
+              <span><img src="assets/market.svg" class="icons-pie"> <span>Marketing</span></span>
+              <img src="assets/arrow-down.svg">
+            </a>
+            <ul class="collapse inner-nav" id="collapseExample6">
+              <li>
+                <a href="#">
+                  Changelog
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Amazon Insights
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+              <span><img src="assets/file.svg" class="icons-pie"> <span>Ad Analytics</span></span>
+              <img src="assets/arrow-down.svg">
+            </a>
+            <ul class="collapse inner-nav" id="collapseExample3">
+              <li>
+                <a href="#">
+                  Ad dashboard
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Ad reports
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Term Excluder 2.0
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Ad Insights
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <span><img src="assets/Bell icon.svg" class="icons-pie"> <span>Notifications <span
+                    class="badge rounded-pill">4</span>
+                </span></span></span>
+              <img src="assets/arrow-down.svg">
+            </a>
+            <ul class="collapse inner-nav" id="collapseExample" >
+              <li>
+                <a href="#">
+                  Changelog
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Notification manager
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Expenses
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+              <span><img src="assets/setting.svg" class="icons-pie"> <span>Settings</span></span>
+              <img src="assets/arrow-down.svg">
+            </a>
+            <ul class="collapse inner-nav" id="collapseExample7">
+              <li>
+                <a href="#">
+                  Account settings
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  User permissions
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Billing
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="">
+              <span><img src="assets/]doc.svg" class="icons-pie"> <span>Docs</span></span>
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="">
+              <span><img src="assets/become.svg" class="icons-pie"> <span>Become an affiliate!</span></span>
+            </a>
+          </li>
+          <li class="mb-4">
+            <a href="#" class="">
+              <span><img src="assets/submit.svg" class="icons-pie"> <span>Submit a feature!</span></span>
+            </a>
+          </li>
+        </ul>
+        <div class="progile">
+          <a href="#" class="d">
+            <span><img src="assets/avatar-one.png" class="icons-pie">
+              <span class="font">John Doe
+                <span class="font-size">
+                  johndoe@gmail.com
+                </span>
+              </span>
+            </span>
+            <img src="assets/setting.svg">
+          </a>
+        </div>
+
+      </div>
+      <div class='dashboard-app'>
+        <div class='dashboard-content'>
+          <div class="app-header__content">
+            <div class="app-header-right">
+              <ul class="header-menu nav">
+                <li class="nav-item">
+                  <a href="javascript:void(0);" class="nav-link">
+                    <span class="span"> John Doe</span>
+                    <img src="assets/Avatar.png">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="javascript:void(0);" class="nav-link position-relative dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/Bell icon.svg" class="">
+                    <span class="position-absolute translate-middle badge rounded-pill">
+                      9
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                    <!--  -->
+                    
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="javascript:void(0);" class="nav-link">
+                    <img src="assets/setting.svg">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="signup.html" class="nav-link">
+                    <img src="assets/lock.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='card'>
+            <div class='card-body'>
+              <h1 class="heading">Account level analytics</h1>
+              <div class="filter">
+                <div class="col-lg-4">
+                  <div class="input-group">
+                    <span class="input-group-append">
+                      <button class="btn btn-outline-secondary bg-white border-end-0 border ms-n5" type="button">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </span>
+                    <input class="form-control border-start-0 border" type="search"
+                      placeholder="Search for ASIN, SKU or Titel" id="example-search-input">
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="month-filter">
+                    <ul class="month-ul list-unstyled nav">
+                      <li>
+                        <a href="#" class="d-flex align-items-center">
+                          <span><img src="assets/calender.svg" class="icons-pie-market"> <span>This month / Last month
+                              / 2 month ago / 3 month ago </span></span>
+                          <img src="assets/arrow-down.svg" class="margin-left">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="d-flex align-items-center">
+                          <span><img src="assets/Home icon.svg" class="icons-pie-market"> <span>All
+                              marketplaces</span></span>
+                          <img src="assets/arrow-down.svg" class="margin-left">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="d-flex align-items-center btn btn-primary">
+                          <span>filter</span> <img src="assets/Filter icon.svg">
+                        </a>
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class='card mt-3'>
+            <div class='card-body'>
+              <div class="filter align-items-center">
+                <ul class="d-flex list-unstyled nav align-items-center">
+                  <li>
+                    <a href="#" class="d-flex align-items-center">
+                      <div class="arrow-left">
+                        <img src="assets/arrow-down.svg">
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="d-flex align-items-center btn btn-secondary ">
+                      <img src="assets/Filter icon.svg">
+                      <span>Analytics dashboard</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="d-flex align-items-center btn btn-secondary ">
+                      <img src="assets/Filter icon.svg">
+                      <span>Account level P&L</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="d-flex align-items-center btn btn-secondary ">
+                      <img src="assets/Filter icon.svg">
+                      <span>Product level P&L</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="d-flex align-items-center btn btn-primary ">
+                      <img src="assets/Filter icon.svg">
+                      <span>View by orders</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="d-flex align-items-center btn btn-secondary ">
+                      <img src="assets/Filter icon.svg">
+                      <span>Customer explorer</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="d-flex align-items-center">
+                      <div class="arrow">
+                        <img src="assets/arrow-down.svg">
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="list-unstyled d-flex justify-content-end align-items-center mb-0">
+                  <li>
+                    <a class="btn btn-primary buttonprimary"><span>Download xls</span> <img
+                        src="assets/download-file.svg"></a>
+                  </li>
+                  <li>
+                    <a class="btn btn-daulft button1"> <img src="assets/video.svg"> <span>Video</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- table-profit and loss -->
+          <div class='card mt-3'>
+            <div class='card-body'>
+              <h6 class="heading">Profit and Loss (P&L) Statement</h6>
+              <div class="line-heading-one"></div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-bordered table-profit" cellspacing="0" cellpadding="0">
+              <thead>
+                <tr class=" text-center">
+                  <th scope="col">Parameter</th>
+                  <th scope="col">June</th>
+                  <th scope="col">May</th>
+                  <th scope="col">April</th>
+                  <th scope="col">March</th>
+                  <th scope="col">Feburary</th>
+                  <th scope="col">January</th>
+                  <th scope="col">December</th>
+                  <th scope="col">November</th>
+                  <th scope="col">October</th>
+                  <th scope="col">September</th>
+                  <th scope="col">August</th>
+                  <th scope="col">July</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Total gross revenue</span>
+                    </div>
+                  </td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Total units sold</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="bold-table">
+                  <th>Expenses</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">VAT tax</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Total promotion costs</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Total advertising costs</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Shipping to customer</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Cost of goods</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Amazon fees 1
+                        <br>
+                        (Everyday fees)</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="bold-table">
+                  <th>Contribution margin 1</th>
+                  <th class="text-center">€ 751</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Refund cost</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Amazon fees 1
+                        <br>
+                        (Everyday fees)</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="bold-table">
+                  <th>Contribution margin 2</th>
+                  <th class="text-center">€ 751</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Amazon fees 1
+                        <br>
+                        (Everyday fees)</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Logistics</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Amazon reimbursement</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="bold-table">
+                  <th>Contribution margin 2
+                    <br><small>(Gross profit)</small>
+                  </th>
+                  <th class="text-center">€ 751</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Other expenses</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+
+                <tr class="bold-table">
+                  <th>Contribution margin 4
+                    <br><small>(Not profit)</small>
+                  </th>
+                  <th class="text-center">€ 751</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                  <th class="text-center">€ 2,587.56</th>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Refund rate</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Refund cost percentage</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Sellable returns</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Gross margin</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">Net margin</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+                <tr class="text-center">
+                  <td scope="row" class="text-left">
+                    <div class="d-flex text-left img-product">
+                      <img src="assets/arrow-right-blue.svg" class="width-custom">
+                      <span class="text-left">ROI</span>
+                    </div>
+                  </td>
+                  <td>€ 751</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                  <td>€ 2,587.56</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+          <!-- table-product -->
+          <div class='card my-3 p-0'>
+            <div class='card-body px-0 '>
+              <div class="padding">
+                <h6 class="heading">Product</h6>
+                <div class="line-heading"></div>
+                <div class="filter">
+                  <div class="col-lg-5 d-flex justify-content-between">
+                    <div class="col-8">
+                      <div class="input-group width-amage">
+                        <span class="input-group-append">
+                          <button class="btn btn-outline-secondary bg-white border-end-0 border ms-n5" type="button">
+                            <i class="fa fa-search"></i>
+                          </button>
+                        </span>
+                        <input class="form-control border-start-0 border" type="search"
+                          placeholder="Search for ASIN, SKU or Titel" id="example-search-input">
+                      </div>
+                    </div>
+                    <a class="btn btn-primary buttonprimary margin-input"><span>Download xls</span> <img
+                        src="assets/download-file.svg"></a>
+
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="month-filter">
+                      <ul class="month-ul list-unstyled nav">
+                        <li>
+                          <a href="#" class="d-flex align-items-center">
+                            <span><img src="assets/setting.svg" class="icons-pie-market"> <span>Group By</span></span>
+                            <img src="assets/arrow-down.svg" class="margin-left">
+                          </a>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="table-responsive">
+                <table class="table table-bordered table-product" cellspacing="0" cellpadding="0">
+                  <thead>
+                    <tr class=" text-center">
+                      <th scope="col">Product name</th>
+                      <th scope="col">Units</th>
+                      <th scope="col">Refunds</th>
+                      <th scope="col">Sales</th>
+                      <th scope="col">Promo</th>
+                      <th scope="col">Refund cost</th>
+                      <th scope="col">Sellable returns</th>
+                      <th scope="col">Amazon fees</th>
+                      <th scope="col">Cost of goods</th>
+                      <th scope="col">Gross profit</th>
+                      <th scope="col">Net profit</th>
+                      <th scope="col">Estimated payout</th>
+                      <th scope="col">Expenses</th>
+                      <th scope="col">Margin</th>
+                      <th scope="col">ROI</th>
+                      <th scope="col">BSR</th>
+                      <th scope="col">Real ACOS</th>
+                      <th scope="col">Info</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="text-center">
+                      <td scope="row" class="text-left">
+                        <div class="d-flex text-left img-product">
+                          <img src="assets/Product image (1).png" alt="1" width="auto" height="auto" class="width">
+                          <span class="text-left">Wyze Cam Pan v2 1080p Pan/Tilt...
+                            <span class="text-primary">B01MCWRZKI / </span>4DM-HOL-EDB-AMZ / COG: €14.57 / Price: €22.45
+                            /
+                            <span class="text-primary">FBA stock: 2 122</span></span>
+                        </div>
+                      </td>
+                      <td>112</td>
+                      <td>7</td>
+                      <td>€ 1.025.56</td>
+                      <td>4.21%</td>
+                      <td class="text-danger">€ -102.30</td>
+                      <td>96%</td>
+                      <td class="text-danger">€ -1555.96</td>
+                      <td class="text-danger">€ -12.12</td>
+                      <td>€ 3.25</td>
+                      <td class="text-danger">€ -362.12</td>
+                      <td>€ 24 195.16</td>
+                      <td>€ 0.00</td>
+                      <td class="text-danger">-756.53%</td>
+                      <td>323%</td>
+                      <td>517 <br><span class="text-danger">-0%
+                          -30%</span></td>
+                      <td>65.22%</td>
+                      <td><a href=""><img src="assets/vertical.svg"></a></td>
+
+                    </tr>
+                    <tr class="text-center">
+                      <td scope="row" class="text-left">
+                        <div class="d-flex text-left img-product">
+                          <img src="assets/Product image.png" alt="1" width="auto" height="auto" class="width">
+                          <span class="text-left">Amazon Basics 50-inch Lightweight...
+                            <span class="text-primary">B01MCWRZKI / </span>4DM-HOL-EDB-AMZ / COG: €14.57 / Price: €22.45
+                            /
+                            <span class="text-primary">FBA stock: 2 122</span></span>
+                        </div>
+                      </td>
+                      <td>112</td>
+                      <td>7</td>
+                      <td>€ 1.025.56</td>
+                      <td>4.21%</td>
+                      <td class="text-danger">€ -102.30</td>
+                      <td>96%</td>
+                      <td class="text-danger">€ -1555.96</td>
+                      <td class="text-danger">€ -12.12</td>
+                      <td>€ 3.25</td>
+                      <td class="text-danger">€ -362.12</td>
+                      <td>€ 24 195.16</td>
+                      <td>€ 0.00</td>
+                      <td class="text-danger">-756.53%</td>
+                      <td>323%</td>
+                      <td>517 <br><span class="text-danger">-0%
+                          -30%</span></td>
+                      <td>65.22%</td>
+                      <td><a href=""><img src="assets/vertical.svg"></a></td>
+
+                    </tr>
+                    <tr class="text-center">
+                      <td scope="row" class="text-left">
+                        <div class="d-flex text-left img-product">
+                          <img src="assets/Product image (1).png" alt="1" width="auto" height="auto" class="width">
+                          <span class="text-left">Wyze Cam Pan v2 1080p Pan/Tilt...
+                            <span class="text-primary">B01MCWRZKI / </span>4DM-HOL-EDB-AMZ / COG: €14.57 / Price: €22.45
+                            /
+                            <span class="text-primary">FBA stock: 2 122</span></span>
+                        </div>
+                      </td>
+                      <td>112</td>
+                      <td>7</td>
+                      <td>€ 1.025.56</td>
+                      <td>4.21%</td>
+                      <td class="text-danger">€ -102.30</td>
+                      <td>96%</td>
+                      <td class="text-danger">€ -1555.96</td>
+                      <td class="text-danger">€ -12.12</td>
+                      <td>€ 3.25</td>
+                      <td class="text-danger">€ -362.12</td>
+                      <td>€ 24 195.16</td>
+                      <td>€ 0.00</td>
+                      <td class="text-danger">-756.53%</td>
+                      <td>323%</td>
+                      <td>517 <br><span class="text-danger">-0%
+                          -30%</span></td>
+                      <td>65.22%</td>
+                      <td><a href=""><img src="assets/vertical.svg"></a></td>
+
+                    </tr>
+                    <tr class="text-center">
+                      <td scope="row" class="text-left">
+                        <div class="d-flex text-left img-product">
+                          <img src="assets/Product image (3).png" alt="1" width="auto" height="auto" class="width">
+                          <span class="text-left">Amazon Basics High-Speed HDMI...
+                            <span class="text-primary">B01MCWRZKI / </span>4DM-HOL-EDB-AMZ / COG: €14.57 / Price: €22.45
+                            /
+                            <span class="text-primary">FBA stock: 2 122</span></span>
+                        </div>
+                      </td>
+                      <td>112</td>
+                      <td>7</td>
+                      <td>€ 1.025.56</td>
+                      <td>4.21%</td>
+                      <td class="text-danger">€ -102.30</td>
+                      <td>96%</td>
+                      <td class="text-danger">€ -1555.96</td>
+                      <td class="text-danger">€ -12.12</td>
+                      <td>€ 3.25</td>
+                      <td class="text-danger">€ -362.12</td>
+                      <td>€ 24 195.16</td>
+                      <td>€ 0.00</td>
+                      <td class="text-danger">-756.53%</td>
+                      <td>323%</td>
+                      <td>517 <br><span class="text-danger">-0%
+                          -30%</span></td>
+                      <td>65.22%</td>
+                      <td><a href=""><img src="assets/vertical.svg"></a></td>
+
+                    </tr>
+                    <tr class="text-center">
+                      <td scope="row" class="text-left">
+                        <div class="d-flex text-left img-product">
+                          <img src="assets/Product image (4).png" alt="1" width="auto" height="auto" class="width">
+                          <span class="text-left">Wyze Cam v3 with Color Night...
+                            <span class="text-primary">B01MCWRZKI / </span>4DM-HOL-EDB-AMZ / COG: €14.57 / Price: €22.45
+                            /
+                            <span class="text-primary">FBA stock: 2 122</span></span>
+                        </div>
+                      </td>
+                      <td>112</td>
+                      <td>7</td>
+                      <td>€ 1.025.56</td>
+                      <td>4.21%</td>
+                      <td class="text-danger">€ -102.30</td>
+                      <td>96%</td>
+                      <td class="text-danger">€ -1555.96</td>
+                      <td class="text-danger">€ -12.12</td>
+                      <td>€ 3.25</td>
+                      <td class="text-danger">€ -362.12</td>
+                      <td>€ 24 195.16</td>
+                      <td>€ 0.00</td>
+                      <td class="text-danger">-756.53%</td>
+                      <td>323%</td>
+                      <td>517 <br><span class="text-danger">-0%
+                          -30%</span></td>
+                      <td>65.22%</td>
+                      <td><a href=""><img src="assets/vertical.svg"></a></td>
+
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="pagination">
+                  <div class="show-entry">
+                    <span>Showing 1-5 of 136 results </span>
+                  </div>
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&lt;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true"> &gt;</span>
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="selct-row d-flex align-items-center">
+                    <label class="label-class mb-0">Rows per page</label><select class="select">
+                      <option selected>1</option>
+                      <option value="1">2</option>
+                      <option value="2">4</option>
+                      <option value="3">5</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
