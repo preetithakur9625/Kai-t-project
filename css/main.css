@@ -15,6 +15,9 @@ a:hover {
 .wrapper {
     height: 100%;
 }
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    border-color:none!important;
+}
 
 .bg-img {
     padding: 10px 0 10px 10px;
@@ -390,6 +393,7 @@ body.bg {
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
+    margin: 0 0 0 10px;
     color: #000000;
 }
 
@@ -490,7 +494,7 @@ span.span {
     -webkit-flex-grow: 2;
     -ms-flex-positive: 2;
     flex-grow: 2;
-    padding: 0 16px 0 0;
+    padding: 0 10px;
     background: #FFf;
     position: relative;
 }
@@ -682,7 +686,7 @@ span.font-size {
 
 ul.month-ul.list-unstyled.nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -1092,4 +1096,7 @@ ul.d-flex.list-unstyled.nav li {
     margin-left: 5px;
 }
 
-/* notification */
+.width-slick div{
+    width: 100px;
+    background-color: #000;
+}
