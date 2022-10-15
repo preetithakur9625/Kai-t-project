@@ -85,6 +85,12 @@ a.text-end-align {
     border: 0;
     width: 80%;
 }
+.m-0{
+    margin: 0px;
+}
+.d-none-custom{
+    display: none;
+}
 
 p.already-account {
     font-family: 'Sora';
@@ -155,7 +161,6 @@ h4.singup {
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    line-height: 150%;
     color: #1A2544;
     margin-bottom: 9px !important;
 }
@@ -375,18 +380,16 @@ body.bg {
 }
 
 .app-header__logo {
-    height: 60px;
+    padding: 16px 0;
     display: flex;
     align-items: center;
     transition: width .2s;
 }
-
 .app-header__logo .logo h2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 150%;
     color: #000000;
 }
 
@@ -399,7 +402,7 @@ body.bg {
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: end;
+    justify-content: space-between;
     flex: 1;
     padding: 0 0;
     height: 80px;
@@ -479,6 +482,7 @@ span.span {
     -webkit-flex-grow: 2;
     -ms-flex-positive: 2;
     flex-grow: 2;
+    transition: all 0.5 ease-in-out;
 }
 
 .dashboard-content {
@@ -498,6 +502,7 @@ span.span {
     bottom: 0;
     overflow: auto;
     background: #FFf;
+    transition: all 0.5 ease-in-out;
 }
 
 .dashboard-compact .sidebar{
@@ -630,7 +635,6 @@ span.font {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 150%;
     color: #111827;
 }
 
@@ -853,7 +857,6 @@ table td {
 
 span.position-absolute.translate-middle.badge.rounded-pill, span.badge.rounded-pill {
     font-size: 9px;
-    line-height: 150%;
     color: #179942;
     background: #C4F3E3;
     right: 0px;
